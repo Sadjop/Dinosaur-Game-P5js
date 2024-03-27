@@ -5,7 +5,7 @@ var restartFromSpaceKeyEnabled = true;
 let img;
 
 function preload() {
-  this.img = loadImage("https://diegoal3mx.github.io/Dinosaur-Game-P5js/imgs/dinosaur-sprite.png");
+  this.img = loadImage("./imgs/dinosaur-sprite-new.png");
   this.game.sprite = this.img;
 }
 
@@ -17,6 +17,14 @@ function setup(){
 
 function start(){
   this.game.load_game(width);
+  loop();
+}
+
+function stop(){
+  noLoop();
+}
+
+function resume(){
   loop();
 }
 
@@ -72,6 +80,14 @@ function checkIfKeyIsPressed(){
         this.game.player.jump();
       }
     }
+
+    else if (key === "p" || key === "P") {
+      noLoop();
+    } 
+    else if (key === "r" || key === "R") {
+      loop();
+    }
+    
   }
 }
 

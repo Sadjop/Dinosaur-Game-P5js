@@ -17,23 +17,27 @@ class Cactus{
         switch (this.type) {
             case 0:
                 this.w = 30;
-                this.img = game.sprite.get(228, 2, 17, 35);
+                // Poubelle 01 
+                this.img = game.sprite.get(228, 2, 21, 36);
             break;
+                // Poubelle 01 reverse
             case 1:
                 this.w = 64;
-                this.img = game.sprite.get(245, 2, 34, 35);
+                this.img = game.sprite.get(258, 2, 21, 35);
             break;
+                // Poubelle sac
             case 2:
                 this.w = 98;
-                this.img = game.sprite.get(279, 2, 51, 35);
+                this.img = game.sprite.get(288, 6, 20, 28);
             break;
+
             case 3:
                 this.w = 46;
-                this.img = game.sprite.get(332, 2, 25, 50);
+                this.img = game.sprite.get(311, 5, 21, 29);
             break;
             case 4:
                 this.w = 96;
-                this.img = game.sprite.get(357, 2, 50, 50);
+                this.img = game.sprite.get(338, 9, 69, 29);
             break;
             case 5:
                 this.w = 146;
