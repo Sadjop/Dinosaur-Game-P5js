@@ -163,20 +163,20 @@
             this.imgGameOverNight =  this.sprite.get(655, 29, 191, 11);
         }
         load_player_assets(){
-            this.player.img_running_1 = this.sprite.get(848, 2, 44, 47);
-            this.player.img_running_2 = this.sprite.get(936, 2, 44, 47);
-            this.player.img_running_3 = this.sprite.get(980, 2, 44, 47);
-            this.player.img_crouching_1 = this.sprite.get(1112, 19, 59, 30); 
-            this.player.img_crouching_2 = this.sprite.get(1171, 19, 59, 30);
-            this.player.img_die = this.sprite.get(1068, 2, 44, 47);
-            this.player.img_die_night = this.sprite.get(1024, 2, 44, 47);
+            this.player.img_running_1 = this.sprite.get(0, 0, 70, 59);
+            this.player.img_running_2 = this.sprite.get(74, 0, 65, 59);
+            this.player.img_running_3 = this.sprite.get(0, 0, 70, 59);
+            this.player.img_crouching_1 = this.sprite.get(206, 4, 49, 51); 
+            this.player.img_crouching_2 = this.sprite.get(206, 4, 49, 51);
+            this.player.img_die = this.sprite.get(139, 8, 63, 51);
+            this.player.img_die_night = this.sprite.get(139, 8, 63, 51);
             this.player.imgs [0] = this.player.img_running_1; this.player.imgs[1] = this.player.img_running_2; this.player.imgs[2] = this.player.img_running_3;
             this.player.crouching_imgs [0] = this.player.img_crouching_1;  this.player.crouching_imgs [1] = this.player.img_crouching_2;
             this.player.img = this.player.img_running_1;
         }
 
         load_ground_assets(){
-            this.ground.img = this.sprite.get(2, 53, 1200, 13);
+            this.ground.img = this.sprite.get(0, 61, 1089, 9);
             this.ground.imgGameNotStarted = this.sprite.get(40, 53, 49, 13);
         }
 

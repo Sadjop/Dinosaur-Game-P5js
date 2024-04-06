@@ -5,7 +5,7 @@ var restartFromSpaceKeyEnabled = true;
 let img;
 
 function preload() {
-  this.img = loadImage("./imgs/dinosaur-sprite-new.png");
+  this.img = loadImage("./imgs/paris-sprite.png");
   this.game.sprite = this.img;
 }
 

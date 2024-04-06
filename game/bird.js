@@ -10,8 +10,8 @@ class Bird{
         this.collisionBoxes = [];
         this.wingUpCollisionBoxes = [];
         this.wingDownCollisionBoxes = [];
-        this.img_wing_down = game.sprite.get(134, 2, 46, 40);
-        this.img_wing_up = game.sprite.get(180, 2, 46, 40);
+        this.img_wing_down = game.sprite.get(604, 7, 42, 35);
+        this.img_wing_up = game.sprite.get(645, 1, 35, 45);
         this.imgs [0] = this.img_wing_down; this.imgs[1] = this.img_wing_up;
         
         this.type = Math.floor(random(4));

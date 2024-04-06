@@ -8,13 +8,13 @@ class Star{
         this.type = Math.floor(random(3));
         switch (this.type) {
             case 0:
-                this.img = game.sprite.get(644, 2, 9, 9);
+                this.img = game.sprite.get(1042, 15, 9, 9);
             break;
-            case 1:
-                this.img = game.sprite.get(644, 11, 9, 9);
+            case 1:X
+                this.img = game.sprite.get(1042, 24, 9, 9);
             break;
             case 2:
-                this.img = game.sprite.get(644, 20, 9, 9);
+                this.img = game.sprite.get(1042, 33, 9, 9);
             break;
         }
     }

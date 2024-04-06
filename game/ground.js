@@ -4,10 +4,10 @@ class Ground{
 
     constructor(){
         this.x = 0;
-        this.x2 = -1280;
-        this.y = 512;
-        this.w = 1280;
-        this.h = 24;
+        this.x2 = -1089;
+        this.y = 525;
+        this.w = 1089;
+        this.h = 20;
     }
 
     update(speed){

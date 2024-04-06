@@ -16,33 +16,36 @@ class Cactus{
         }
         switch (this.type) {
             case 0:
-                this.w = 30;
+                this.w = 51;
                 // Poubelle 01 
-                this.img = game.sprite.get(228, 2, 21, 36);
+                this.img = game.sprite.get(261, 7, 39, 51);
             break;
                 // Poubelle 01 reverse
             case 1:
-                this.w = 64;
-                this.img = game.sprite.get(258, 2, 21, 35);
+                this.w = 52;
+                this.img = game.sprite.get(303, 7, 38, 52);
             break;
                 // Poubelle sac
             case 2:
-                this.w = 98;
-                this.img = game.sprite.get(288, 6, 20, 28);
+                this.w = 45;
+                this.img = game.sprite.get(341, 14, 33, 45);
             break;
 
             case 3:
-                this.w = 46;
-                this.img = game.sprite.get(311, 5, 21, 29);
+                this.w = 45;
+                this.img = game.sprite.get(373, 14, 37, 45);
             break;
             case 4:
-                this.w = 96;
-                this.img = game.sprite.get(338, 9, 69, 29);
+                this.w = 56;
+                this.img = game.sprite.get(410, 3, 37, 56);
             break;
             case 5:
-                this.w = 146;
-                this.img = game.sprite.get(407, 2, 75, 50);
+                this.w = 92;
+                this.img = game.sprite.get(447, 20, 92, 39);
             break;
+            case 6:
+                this.w = 51;
+                this.img = game.sprite.get(539, 14, 68, 51);
         }
         this.createCollisionBoxes(this.randomDistance-70);
     }

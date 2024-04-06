@@ -20,70 +20,30 @@ class CollisionBox{
 
                 // Petit cactus
                 case 0:
-                    // this.boxes.push(new CollisionBox(this.x+70,486,10,29));
-                    // this.boxes.push(new CollisionBox(this.x+78,472,12,64));
-                    // this.boxes.push(new CollisionBox(this.x+89,478,10,29));
+                    this.boxes.push(new CollisionBox(this.x+75, 480, 39, 51));
+
                 break;
 
-
                 case 1:
-                    // this.boxes.push(new CollisionBox(this.x+70,487,11,29));
-                    // this.boxes.push(new CollisionBox(this.x+80,472,11,64));
-                    // this.boxes.push(new CollisionBox(this.x+90,479,12,29));
-            
-                    // this.boxes.push(new CollisionBox(this.x+101,479,12,25));
-                    // this.boxes.push(new CollisionBox(this.x+112,472,12,64));
-                    // this.boxes.push(new CollisionBox(this.x+123,479,10,33));
+                    this.boxes.push(new CollisionBox(this.x+75, 480, 38, 52));
                 break;
 
                 // Cactus x3
                 case 2:
-                    this.boxes.push(new CollisionBox(this.x+71,487,11,29));
-                    this.boxes.push(new CollisionBox(this.x+80,472,11,64));
-                    this.boxes.push(new CollisionBox(this.x+90,479,12,29));
-               
-                    this.boxes.push(new CollisionBox(this.x+101,478,12,39));
-                    this.boxes.push(new CollisionBox(this.x+112,472,12,64));
-                    this.boxes.push(new CollisionBox(this.x+123,485,12,37));
-
-                    this.boxes.push(new CollisionBox(this.x+134,477,12,31));
-                    this.boxes.push(new CollisionBox(this.x+145,472,12,64));
-                    this.boxes.push(new CollisionBox(this.x+156,479,10,33));
+                    this.boxes.push(new CollisionBox(this.x+75, 479, 33, 45));
                 break;
                 case 3:
-                    this.boxes.push(new CollisionBox(this.x+71,469,15,36));
-                    this.boxes.push(new CollisionBox(this.x+85,446,16,90));
-                    this.boxes.push(new CollisionBox(this.x+100,465,14,39));
+                    this.boxes.push(new CollisionBox(this.x+71,469,37, 55));
                 break;
 
                 // Cactus x2
                 case 4:
-                    this.boxes.push(new CollisionBox(this.x+71,469,15,36));
-                    this.boxes.push(new CollisionBox(this.x+85,446,16,90));
-                    this.boxes.push(new CollisionBox(this.x+100,465,18,37));
-
-                    this.boxes.push(new CollisionBox(this.x+117,456,18,39));
-                    this.boxes.push(new CollisionBox(this.x+134,446,16,90));
-                    this.boxes.push(new CollisionBox(this.x+149,465,15,39));
+                    this.boxes.push(new CollisionBox(this.x+71, 459, 43, 60));
                 break;
 
                 // Collisions GROS CACTUS A MODIFIER AVEC LE SPRITE CHOISI
                 case 5:
-                    this.boxes.push(new CollisionBox(this.x+71,469,16,38));
-                    this.boxes.push(new CollisionBox(this.x+86,446,16,90));
-                    this.boxes.push(new CollisionBox(this.x+101,466,17,37));
-
-                    this.boxes.push(new CollisionBox(this.x+117,476,13,33));
-                    this.boxes.push(new CollisionBox(this.x+129,450,12,86));
-                    this.boxes.push(new CollisionBox(this.x+140,459,12,26));
-
-                    this.boxes.push(new CollisionBox(this.x+144,491,11,26));
-                    this.boxes.push(new CollisionBox(this.x+154,484,9,53));
-                    this.boxes.push(new CollisionBox(this.x+162,491,11,26));
-
-                    this.boxes.push(new CollisionBox(this.x+167,456,18,39));
-                    this.boxes.push(new CollisionBox(this.x+184,446,16,90));
-                    this.boxes.push(new CollisionBox(this.x+199,467,15,37));
+                    this.boxes.push(new CollisionBox(this.x+71,469,16,38));                    
                 break;
 
                 // // Collisions Dino A MODIFIER AVEC LE SPRITE CHOISI

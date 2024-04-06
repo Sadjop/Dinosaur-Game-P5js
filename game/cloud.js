@@ -3,9 +3,9 @@ class Cloud{
     constructor(){
         this.x = game.window_width+70;
         this.y = Math.floor(random(55,300));
-        this.w = 84;
+        this.w = 9;
         this.h = 24;
-        this.img = game.sprite.get(86, 2, 46, 13);
+        this.img = game.sprite.get(765, 15, 9, 27);
     }
 
     update(speed){
