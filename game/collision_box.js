@@ -48,23 +48,22 @@ class CollisionBox{
 
                 // // Collisions Dino A MODIFIER AVEC LE SPRITE CHOISI
                 case 6:
-                //     this.boxes.push(new CollisionBox(203,480,10,23));
-                //     this.boxes.push(new CollisionBox(212,492,44,10));
-                //     this.boxes.push(new CollisionBox(212,502,40,8));
-                //     this.boxes.push(new CollisionBox(216,510,29,8));
-                //     this.boxes.push(new CollisionBox(220,517,26,7));
-                //     this.boxes.push(new CollisionBox(220,522,11,10));
-                //     this.boxes.push(new CollisionBox(237,522,11,10));
-                //     this.boxes.push(new CollisionBox(228,480,35,17));
-                //     this.boxes.push(new CollisionBox(239,454,37,28));
+                    this.boxes.push(new CollisionBox(200,500,15,10));
+                    this.boxes.push(new CollisionBox(212,500,40,10));
+                    this.boxes.push(new CollisionBox(242,510,10,8));
+                    this.boxes.push(new CollisionBox(246,518,10,8));
+                    this.boxes.push(new CollisionBox(250,527,20,7));
+                    this.boxes.push(new CollisionBox(232,490,11,10));
+                    this.boxes.push(new CollisionBox(235,480,11,10));
+                    this.boxes.push(new CollisionBox(245,482,27,13));
+                    this.boxes.push(new CollisionBox(222,472,15,28));
+                    this.boxes.push(new CollisionBox(235,460,15,19));
+
                 break;
 
                 // // Collisions Dino Allongé A MODIFIER AVEC LE SPRITE CHOISI
                 case 7:
-                    // this.boxes.push(new CollisionBox(202,488,17,20));
-                    // this.boxes.push(new CollisionBox(218,488,88,30));
-                    // this.boxes.push(new CollisionBox(222,517,26,17));
-                    // this.boxes.push(new CollisionBox(247,517,22,9));
+                    this.boxes.push(new CollisionBox(202,495,90,50));
                 break;
                 case 8:
                     this.boxes.push(new CollisionBox(this.x+74,this.by+25,11,8));
