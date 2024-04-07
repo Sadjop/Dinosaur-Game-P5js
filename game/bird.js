@@ -40,7 +40,6 @@ class Bird{
 
     update(speed){
         this.x -= speed;
-      
         if(frameCount%10==0){
             image(this.imgs[this.img_index ^= 1], this.x, this.y, this.w, this.h);
             this.activeCollisionBoxes = this.collisionBoxes[this.img_index];

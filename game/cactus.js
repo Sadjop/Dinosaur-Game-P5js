@@ -15,34 +15,43 @@ class Cactus{
             this.y = 444;
         }
         switch (this.type) {
+            // Bidon droit
             case 0:
                 this.w = 51;
-                // Poubelle 01 
                 this.img = game.sprite.get(261, 7, 39, 51);
             break;
-                // Poubelle 01 reverse
+
+            // Bidon à l'envert
             case 1:
                 this.w = 52;
                 this.img = game.sprite.get(303, 7, 38, 52);
             break;
-                // Poubelle sac
+            
+            // Sac
             case 2:
                 this.w = 45;
                 this.img = game.sprite.get(341, 14, 33, 45);
             break;
 
+            // Poubelle vide
             case 3:
                 this.w = 45;
                 this.img = game.sprite.get(373, 14, 37, 45);
             break;
+
+            // Poubelle sac
             case 4:
                 this.w = 56;
                 this.img = game.sprite.get(410, 3, 37, 56);
             break;
+
+            // Poubelle renversée
             case 5:
                 this.w = 92;
                 this.img = game.sprite.get(447, 20, 92, 39);
             break;
+
+            // Personnage
             case 6:
                 this.w = 51;
                 this.img = game.sprite.get(539, 14, 68, 51);
