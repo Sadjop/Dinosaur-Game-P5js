@@ -159,8 +159,8 @@
             this.moon.x = w+70;
         }
         load_game_assets(){
-            this.imgGameOver =  this.sprite.get(655, 15, 191, 11);
-            this.imgGameOverNight =  this.sprite.get(655, 29, 191, 11);
+            this.imgGameOver =  this.sprite.get(687, 29, 191, 13);
+            this.imgGameOverNight =  this.sprite.get(699, 29, 191, 11);
         }
         load_player_assets(){
             this.player.img_running_1 = this.sprite.get(0, 0, 70, 59);
