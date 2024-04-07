@@ -40,7 +40,7 @@ class Cactus{
                 this.img = game.sprite.get(410, 3, 37, 56);
             break;
             case 5:
-                this.w = 100;
+                this.w = 92;
                 this.img = game.sprite.get(447, 20, 92, 39);
             break;
             case 6:
